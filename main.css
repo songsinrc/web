@@ -118,7 +118,7 @@ h3 {
 
 /*網路組介紹*/
 
-#web ,#c ,#rpg ,#funintro ,#usefulintro ,#infors{
+#web ,#c ,#rpg ,#funintro ,#usefulintro ,#infors ,#videolist{
 	padding: 1%;
 	color: white;
 	margin: 0 15% 3% 15%;
@@ -153,7 +153,7 @@ footer{
 	margin-bottom: 0;
 }
 
-
+/*=================*/
 .active {
 	text-align: center;
 }

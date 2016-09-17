@@ -15,6 +15,7 @@
 			<li id="fun"><a href="javascript:close()">最新活動</a></li>
 			<li id="useful"><a href="javascript:close()">檔案櫃</a></li>
 			<li id="infor"><a href="javascript:close()">布告欄</a></li>
+			<li id="video"><a href="javascript:close()">課程影片</a></li>
 			<div class="clear"></div>
 		</ul>
 	</div>
@@ -87,6 +88,13 @@
 			<p>禮拜五 c++ 教學:歐陽詮</p><br/>
 		</article>
 	</div>
+
+	<div id="videolist" class="edit">
+		<article>
+			<p><h1>課程影片</h1></p><br/>
+			<p>建置中</p>
+		</article>
+	</div>
 	
 	<div class="center">
 		<a href="javascript:show()"><section class="back"><h4>back</h4></section></a>
@@ -109,12 +117,13 @@
 	}
 
 	var wi = document.getElementById("web");
-
 	var fun = document.getElementById("fun");
 	var useful = document.getElementById("useful");
 	var usefulintro = document.getElementById("usefulintro");
 	var infor = document.getElementById("infor");
 	var infors = document.getElementById("infors");
+	var videolist = document.getElementById("videolist");
+	var video = document.getElementById("video");
 
 	function show(){
 		var intro1 = document.getElementById("intro1");
@@ -130,8 +139,11 @@
 		funintro.className = "edit";
 		usefulintro.className = "edit";
 		infors.className = "edit";
+		videolist.className = "edit";
 
 	}
+
+	// 各組介紹
 
 	var webclose = document.getElementById("intro1");
 
@@ -153,27 +165,25 @@
 
 	// ====================nav==================
 
-	var funclose = document.getElementById("fun");
-	var usefulclose = document.getElementById("useful");
-	var infor = document.getElementById("infor");
-
-	funclose.addEventListener('click', function() {
+	fun.addEventListener('click', function() {
 		funintro.className = " ";
 		usefulintro.className = "edit";
 		infors.className = "edit";
 		c.className = "edit";
 		rpg.className = "edit";
 		wi.className = "edit";
+		videolist.className = "edit";
 
 	}, false);
 
-	usefulclose.addEventListener('click', function() {
+	useful.addEventListener('click', function() {
 		usefulintro.className = " ";
 		funintro.className = "edit";
 		infors.className = "edit";
 		c.className = "edit";
 		rpg.className = "edit";
 		wi.className = "edit";
+		videolist.className = "edit";
 
 	}, false);
 
@@ -184,8 +194,21 @@
 		c.className = "edit";
 		rpg.className = "edit";
 		wi.className = "edit";
+		videolist.className = "edit";
 
 	}, false);
+
+	video.addEventListener('click', function() {
+		infors.className = "edit";
+		funintro.className = "edit";
+		usefulintro.className = "edit";
+		c.className = "edit";
+		rpg.className = "edit";
+		wi.className = "edit";
+		videolist.className = " ";
+
+	}, false);
+
 	</script>
 </body>
 </html>
