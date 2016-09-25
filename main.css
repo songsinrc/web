@@ -64,7 +64,7 @@ div > ul {
 	padding-top: 15px;
 	height: 100%;
 	display: block;
-	margin-left: 20px;
+	padding: 10px;
 	color: #ddd;
 	font-size: 90%;
 	text-decoration: none;
