@@ -78,7 +78,7 @@ div > ul {
 		border-top:2px solid #fff480;
 	}
 		@media screen and (max-width: 480px) {
-
+			
 		}
 
 /*首頁*/
@@ -137,6 +137,7 @@ div > ul {
 		 	padding: 1em;
 		 	text-align: center;
 		}
+
 	}
 
 /*介紹*/
@@ -211,6 +212,15 @@ height: 100%;
 		height: 50%;
 		width: 20%;
 	}
+
+	@media screen and (min-width: 736px) {
+		p > img {
+			height: 100px;
+			width: 100px;
+		}
+	}
+
+
 
 
 /*影片*/
