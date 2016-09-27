@@ -77,9 +77,7 @@ div > ul {
 		color:#ddd;
 		border-top:2px solid #fff480;
 	}
-		@media screen and (max-width: 480px) {
-			
-		}
+
 
 /*首頁*/
 .content {
@@ -110,11 +108,11 @@ div > ul {
 	font-weight: bold;
 }
 
-#intro1:hover, #intro2:hover , #intro3:hover , .back:hover{
-	transition: 0.5s;
-	background: rgba(0%,20%,20%,0.4);
-	box-shadow: 3px 3px 5px #333;
-}
+	#intro1:hover, #intro2:hover , #intro3:hover , .back:hover{
+		transition: 0.5s;
+		background: rgba(0%,20%,20%,0.4);
+		box-shadow: 3px 3px 5px #333;
+	}
 
 /*back*/
 
