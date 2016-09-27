@@ -126,6 +126,10 @@ div > ul {
 	text-align: center;
 }
 
+.center > div {
+	margin: auto;
+}
+
 	@media screen and (max-width: 480px) {
 
 		.main {
