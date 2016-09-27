@@ -126,8 +126,8 @@ div > ul {
 	text-align: center;
 }
 
-.center > div {
-	margin: auto;
+.fb-comments {
+	left: 50%;
 }
 
 	@media screen and (max-width: 480px) {
