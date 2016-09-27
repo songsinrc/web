@@ -13,7 +13,6 @@
 
 </head>
 <body>
-
 <!-- 目錄 -->
 	<div class="menu">
 		 <ul>
@@ -118,7 +117,7 @@
 		</article>
 	</div>
 
-	<div class="fb-comment-embed" data-href="https://songsinrc.github.io/web/" data-width="560" data-include-parent="true"></div>
+	<div class="fb-comments" data-href="https://songsinrc.github.io/web/" data-numposts="5"></div>
 
 	<div class="center">
 		<a href="javascript:show()"><section class="back"><h4>back</h4></section></a>
@@ -143,14 +142,6 @@
 	</form>
 	
 	<footer>◎2016 Design:jeff<footer>
-	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.7";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 	<script  language="javascript">
 
@@ -261,4 +252,14 @@
 
 	</script>
 </body>
+
+<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.7";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
 </html>
