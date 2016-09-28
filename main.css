@@ -410,5 +410,8 @@ form {
 .facebook-container, .fb-comments {
 	text-align: center;
 	margin: 0 auto;
+}
+
+.fb-comments {
 	background-color: white;
 }
