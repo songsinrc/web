@@ -404,3 +404,9 @@ form {
 	button.special:active {
 		background-color: #53e3fb;
 	}
+
+	/*留言板*/
+
+	.fb-coomments {
+		padding: auto;
+	}
