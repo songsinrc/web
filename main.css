@@ -407,6 +407,7 @@ form {
 
 	/*留言板*/
 
-	.fb-coomments {
-		padding: auto;
-	}
+.facebook-container, .fb-comments {
+	text-align: center;
+	margin: 0 auto;
+}
