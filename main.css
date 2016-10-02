@@ -25,6 +25,14 @@ header {
 	padding: 1%;
 }
 
+
+#web ,#c ,#rpg ,#funintro ,#usefulintro ,#infors ,#videolist{
+	padding: 1%;
+	color: white;
+	margin: 0 15% 3% 15%;
+	background: rgba(0%,10%,30%,0.7);
+}
+
 /*選單*/
 
 .menu {
@@ -130,15 +138,6 @@ div > ul {
 
 	}
 
-/*介紹*/
-
-#web ,#c ,#rpg ,#funintro ,#usefulintro ,#infors ,#videolist{
-	padding: 1%;
-	color: white;
-	margin: 0 15% 3% 15%;
-	background: rgba(0%,10%,30%,0.7);
-}
-
 article > p {
 	text-align: center;
 }
@@ -229,7 +228,7 @@ iframe {
 }
 
 /*線上寄信*/
-
+/*
 form > div{
 	padding: 3%;
 }
@@ -323,16 +322,6 @@ form {
 		text-decoration: none;
 		width: 95%;
 	}
-
-		/*input[type="text"]:invalid,
-		input[type="password"]:invalid,
-		input[type="email"]:invalid,
-		input[type="tel"]:invalid,
-		select:invalid,
-		textarea:invalid {
-			box-shadow: none;
-		}
-*/
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
@@ -403,7 +392,7 @@ form {
 	input[type="submit"].special:active,
 	button.special:active {
 		background-color: #53e3fb;
-	}
+	}*/
 
 	/*留言板*/
 
